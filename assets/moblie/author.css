@@ -1,0 +1,108 @@
+@media screen and (min-width: 320px){
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .body {
+        margin-top: 90px;
+    }
+
+    .author-info , .donate, .content-body {
+        box-shadow: 0 0 1px black;
+    }
+
+    .author {
+        text-align: center;
+    }
+
+    .author img {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .author-info {
+        margin-bottom: 30px;
+    }
+
+    .author-info button, .donate_content button{
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+        box-shadow: 0 0 1px black;
+        margin: 15px 10px 20px;
+    }
+
+    .author-info button:hover , .donate_content button:hover{
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    .donate {
+        text-align: start;
+    }
+
+    .donate_content {
+        padding: 30px;
+    }
+
+    .donate_content h2, .donate_content p  {
+        margin-bottom: 15px;
+    }
+
+    .donate_content button {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    article {
+        transition: 0.5s;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    
+    article:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    }
+
+    article:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+    }
+
+
+    article:hover a {
+    color:#15765c;
+    }
+
+    .article img {
+        display: block;
+        max-width: 100%;
+        transition: 0.5s;
+    }
+
+    .article-body {
+        background-color: rgb(249,249,249);
+        box-shadow: 0 0 1px black;
+        padding: 10px;
+    }
+
+    .article-hd  a {
+        display: inline-block;
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .article-date {
+        display: inline-block;
+        opacity: 0.8;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}

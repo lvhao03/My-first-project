@@ -1,0 +1,149 @@
+@media screen and (min-width: 1024px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    img:hover {
+      cursor: pointer;
+    }
+  
+    /* Header */
+
+    .header-btn {
+        display: none;
+    }
+
+    a {
+        font-size: 18px;
+        color: black;
+    }
+  
+    a:hover {
+        color: #15765c;
+        cursor: pointer;
+    }
+  
+    .header-img:hover {
+      cursor: pointer;
+    }
+
+    .People {
+        margin-top: 70px;
+    }
+  
+    .People h1 {
+        font-size: 48px;
+    }
+  
+    .people-des p {
+        font-size: 22px;
+    }
+  
+    .nav_first {
+        display: block;
+    }
+
+  
+    .article-body {
+        padding: 30px;
+    }
+    
+    .article-hd a {
+        font-size: 28px;
+    }
+    .related-news{
+      flex-direction: row;
+    } 
+  
+    .new h2 a {
+      font-size: 28px;
+    }
+  
+    .new{
+      flex-direction: row;
+      justify-content: space-between;
+    } 
+  
+  
+    .pagination {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding: 60px 0;
+        padding-bottom: 60px;
+        font-size: 14px;
+    }
+   
+    .page_next {
+        transition: 0.5s;
+        margin: 0 0;
+    }
+  
+    .page_next:hover {
+        cursor: pointer;
+        color: #15765c;
+    }
+  
+  
+  
+    .layout-item img {
+        height: 100%;
+        max-width: 100%;
+        transition: 0.5s;
+    }
+
+    .layout-item img:hover {
+        transform: scale(1.02);
+    }
+  
+    .layout {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 250px 100px 250px;
+    }
+      .layout-item:first-child {
+         grid-column: 1/3;
+         grid-row: 1/2;
+    }
+    .layout-item:nth-child(2),.layout-item:nth-child(3){
+      grid-row: 1/3;
+    
+  }
+  
+  .layout-item:nth-child(4),.layout-item:nth-child(5){
+      grid-row: 2/4;
+  }
+    .layout-item:nth-child(6){
+        grid-column: 3/5;
+  
+    }
+  
+    .layout-item img {
+      object-fit: cover;
+    }
+
+
+    .quote {
+      margin: 60px 0;
+    }
+    .quote-content, .quote-author {
+      font-size: 28px;
+    }
+
+
+    .bai_vietThem {
+      margin-bottom: 30px;
+    }
+    .bai_vietThem h2 {
+      padding-bottom: 35px;
+    }
+
+}

@@ -1,0 +1,104 @@
+@media screen and (min-width: 320px){
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .input, .btn {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      margin-bottom: 10px;
+      border-radius: 30px ;
+      box-shadow: 0 0 2px black;
+  }
+    
+  span {
+      display: inline-block;
+      font-weight: 800;
+      margin-bottom: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  .form h2 {
+    text-align: center;
+  }
+  .card {
+     margin-top: 100px;
+  }
+
+  .fb , .github, .dangnhap {
+    color: white;
+    font-weight: 800;
+  }
+  .dangnhap {
+    border: none;
+    background-color: rgb(230,0,35);
+  }
+  .fb {
+    background-color: rgb(24,119,242);
+  }
+
+  .github {
+    background-color: black;
+    color: white;
+  }
+
+  .fb , .github {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fb i , .github  i {
+    position: absolute;
+    left: 15px;
+    font-size: 24px;
+  }
+
+  .fb i {
+    left: 17px;
+  }
+  .form {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .dangNhapVoi {
+    text-align: center;
+  }
+
+  .dangNhapVoi button {
+    border: none;
+  }
+
+  .form-footer {
+    text-align: center;
+  }
+  .form-footer p {
+    margin-bottom: 10px;
+  }
+
+  .form-footer a ,.form-footer p > a {
+    font-size: 16px;
+    color: #15765c;
+  }
+
+  .form-footer a:hover ,.form-footer p > a:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  .forget {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .forget:hover {
+    cursor: pointer;
+  }
+}

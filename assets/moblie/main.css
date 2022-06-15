@@ -1,0 +1,149 @@
+@media screen and (min-width: 320px){
+
+    a {
+        font-size: 18px;
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .dont_miss {
+        margin-top: 70px;
+    }
+
+    .dont_forget {
+        border-left: 3px solid green;
+    }
+    article {
+        transition: 0.5s;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    
+    article:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    }
+
+    article:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+    }
+    
+    article:hover a {
+        color:#15765c;
+      }
+    
+    .articles {
+        margin: 40px 0;
+    }
+    .article img {
+        max-width: 100%;
+        height: 200px;
+        transition: 0.5s;
+    }
+    
+    .article-body {
+        background-color: rgb(249,249,249);
+        box-shadow: 0 0 1px black;
+        padding: 10px;
+    }
+
+    .article-hd  a {
+        display: inline-block;
+        font-size: 22px;
+        padding: 20px 0;
+    }
+
+    .article-date {
+        display: inline-block;
+        opacity: 0.8;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }    
+    
+    .chu_de {
+        margin-top: 50px;
+    }
+
+    .column {
+        text-align: center;
+    }
+    
+
+    .column_body{
+        border-radius: 10px;
+        background-color: rgb(249,249,249);
+    }
+
+    .column_body .article img {
+        height: 150px;
+    }
+
+    .column_heading h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .column_heading p {
+        margin-bottom: 16px;
+    }
+    .hr {
+        background-color: green;
+        height: 5px;
+        width: 60px;
+        margin: 28px auto;
+    }
+
+    .column .article {
+        text-align: start;
+    }
+
+
+    .donate_content button{
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+        box-shadow: 0 0 1px black;
+        margin: 15px 10px 20px;
+    }
+
+
+    .donate_content button:hover{
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    .donate {
+        text-align: start;
+    }
+
+    .donate_content {
+        padding: 30px;
+    }
+
+    .donate_content h2, .donate_content p  {
+        margin-bottom: 15px;
+    }
+
+    .donate_content button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .ngang_2 {
+        margin-bottom: 25px;
+    }
+
+    .copyright {
+        padding: 20px;
+    }
+
+}
